@@ -1,0 +1,26 @@
+{
+  "name": "inngest-chapter-02",
+  "version": "1.0.0",
+  "description": "Chapter 2: Introduction to Inngest and express",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "inngest": "pnpm dlx inngest-cli@latest dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.25.0",
+  "dependencies": {
+    "express": "^4.22.1",
+    "inngest": "^3.47.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
